@@ -1,18 +1,95 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
 
-# Other files and folders
+# Flask
+instance/
+.webassets-cache
+.env
+.flaskenv
+
+# Project-specific data files (MOST IMPORTANT)
+users.json
+servers.json
+settings.json
+
+# Server directories (contains user code and data)
+servers/
+!servers/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-*
+.project
+.pydevproject
 .settings/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Logs
+*.log
+logs/
+console_logs/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files created by the app
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+archive-*.zip
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Security
+*.key
+*.pem
+*.crt
+*.p12
+secret.key
+
+# Uploads/Downloads
+uploads/
+downloads/
